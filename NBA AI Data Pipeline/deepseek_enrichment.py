@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 # DeepSeek API Configuration
 # Use env var if set, else require user to provide a key at runtime.
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-REPLACE_ME")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-a7f42564324a433b836f39b479e4dfa8")
 DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
 
 
